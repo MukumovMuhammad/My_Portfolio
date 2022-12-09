@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(0, 166, 255); */
+    /* background-image: url(wp1.jpg); */
+    background-color: #0F1922;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    
+   
+}
+
+h1{
+    color:whitesmoke;
+}
+
+
+form{
+    display: flex;
+}
+
+
+
+input::placeholder{
+    color:whitesmoke;
+
+}
+
+input{
+    background-color: #1F2731 ;
+}
+
+p{
+    color:whitesmoke;
+}
+
+/* FORM 1 */
+
+.form1{
+   
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+.form1 input{
+    /* padding: 5px 50px; */
+    inline-size: 500px;
+    block-size: 30px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    border-color: none;
+
+    border: solid 1px #767676;
+}
+
+
+
+/* FORM 2 */
+
+.form2{
+ 
+    margin-left: 30px;
+    margin-top: 100px;
+    
+}
+
+
+.form2 textarea{
+    inline-size: 600px;
+    max-inline-size: 600px;
+    min-inline-size: 600px;
+    block-size: 300px;
+
+    border-radius: 5px;
+
+    background-color: #1F2731 ;
+}
+
+
+
+
+
+
+/* LIST OF SOCIAL MEDIES */
+ul{
+    margin-left: 80px;
+    display: flex;
+    list-style: none;
+    
+}
+ul li{
+    margin-left: 10px;
+}
+
+i{
+    font-size: 38px;
+	display: block;
+	text-align: center;
+	margin:20px 10px;
+    color:whitesmoke;
+	
+}

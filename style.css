@@ -19,8 +19,13 @@
 
 nav{
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
 	justify-content: space-between;
+	
+	width: 100%;
+	position: fixed;
+	padding: 1% 4% 1% 4%;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .logo{	
@@ -134,6 +139,8 @@ h4{
 }
 
 
+/* SKILSS SECTON */
+
 .skills{
 	width:100%;
 	padding: 100px 0px;
@@ -151,18 +158,84 @@ h4{
 }
 
 .skills .skills_content .column{
-	width: 100%;
+	width: calc(50% - 30px);
 }
 
-.skills .skills_content .column_left .text{
+.skills .skills_content .left .text{
 	color:red;
 	font:50px;
 	font-weight: 600;
+	margin-bottom: 10px;
 }
 
-.skills .skills_content  p{
+.skills .skills_content .left p{
 	color:white;
+	 
+
 }
+
+.skills .skills_content .right .bars{
+	margin-bottom: 10px;
+}
+
+.skills .skills_content .right .info{
+	display: flex;
+
+	justify-content: space-between;
+}
+
+.skills .skills_content .right .skill_main{
+	color:white;
+	font-weight: 900;
+	font-size: large;
+
+}
+
+.skills .skills_content .right .protsent{
+	color:red;
+	font-weight: 900;
+	font-size: large;	
+}
+
+.skills .skills_content .right .line{
+	height: 5px;
+	width: 100%;
+	background-color: #ffffff;
+
+	position: relative;
+}
+
+.skills .skills_content .right .line::before{
+	content: "";
+	position: absolute;
+	height: 100%;
+	left:0;
+	top: 0;
+
+	background-color: #0064C8;
+}
+
+.skills .skills_content .right .html::before{
+	width: 50%;
+	
+}
+
+.skills .skills_content .right .css::before{
+	width: 90%;
+	
+}
+
+.skills .skills_content .right .cpp::before{
+	width: 70%;
+	
+}
+
+.skills .skills_content .right .unity::before{
+	width: 90%;
+}
+
+
+
 
 
 
