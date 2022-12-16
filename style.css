@@ -363,3 +363,137 @@ h5{
 	border: 2px solid #0064C8;
 	cursor: pointer;
 }
+
+
+
+/* CONTACT STYLE */
+
+.contact{
+	padding: 0;
+    margin: 0;
+    /* background-color: rgb(0, 166, 255); */
+    /* background-image: url(wp1.jpg); */
+    background-color: #0F1922;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+
+#h1{
+    color:whitesmoke;
+}
+
+
+form{
+    display: flex;
+}
+
+
+
+input::placeholder{
+    color:whitesmoke;
+
+}
+
+input{
+    background-color: #1F2731 ;
+    color:whitesmoke;
+}
+
+p{
+    color:whitesmoke;
+}
+
+/* FORM 1 */
+
+.form1{
+   
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+.form1 input{
+    /* padding: 5px 50px; */
+    inline-size: 500px;
+    block-size: 30px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    border-color: none;
+
+    border: solid 1px #767676;
+}
+
+input:hover{
+    background-color:#38404A;
+    transition: .4s;
+}
+
+
+
+
+/* FORM 2 */
+
+.form2{
+ 
+    margin-left: 30px;
+    margin-top: 100px;
+    
+}
+
+
+.form2 textarea{
+    inline-size: 600px;
+    max-inline-size: 600px;
+    min-inline-size: 600px;
+    block-size: 300px;
+
+    border-radius: 7px;
+
+    background-color: #1F2731 ;
+
+    color:whitesmoke;
+}
+
+
+.form2 textarea:hover{
+    background-color:#38404A ;
+}
+
+#send{
+    border: 1px solid #767676;
+    background-color: #1F2731;
+    inline-size: 100px;
+    block-size: 30px;
+    margin-left: 500px;
+    margin-top: 30px;
+    color:whitesmoke;
+    border-radius: 7px;
+}
+
+#send:hover{
+    color:rgb(142, 249, 249);
+    background-color: #38404A;
+    transition: .9s;
+}
+
+/* LIST OF SOCIAL MEDIES */
+ul{
+    margin-left: 80px;
+    display: flex;
+    list-style: none;
+    
+}
+ul li{
+    margin-left: 10px;
+}
+
+i{
+    font-size: 38px;
+	display: block;
+	text-align: center;
+	margin:20px 10px;
+    color:whitesmoke;
+	
+}
+

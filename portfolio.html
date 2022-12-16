@@ -8,7 +8,19 @@
   		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
   		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+
+
+		<script src="index.js"></script>
+		  <script type="text/javascript"
+		  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+ 		 </script>
+  		<script type="text/javascript">
+			 (function(){
+				emailjs.init("ifL-CnHk9eGSlGRe_");
+				 })();
+  </script>
+
+	</head>
 
 <body>
 
@@ -21,7 +33,7 @@
 			<li><a href="#">About Me</a></li>
 			<li><a href="#">Projects</a></li>
 			<li><a href="#">Skills</a></li>
-			<li><a href="ContactMe.html">Contact Me</a></li>
+			<li><a href="#h1">Contact Me</a></li>
 		</ul>
 
 		<a href="#" class="button">Subscribe</a>
@@ -179,12 +191,48 @@
 
 
 
+<div class="contact">
+	<h1 id="h1">Contact Me</h1>
+
+        <p id="text_me">Text me anytime you want. I will try to answer as soon as i can.</p>
+
+        <form class="form">
+            <div class="form1">
+               <input type="text" placeholder="name">
+                <br>
+                <input type="email" placeholder="email" > 
+            </div>
+            <div class="form2">
+                <p id="pm">MESSAGE</p>
+                <textarea>
+                    
+                </textarea>
+                <br>
+                <button id="send">SEND</button>
+            </div>
+
+           
+        </form>
+        <p>Also you can text me through these social medias:</p>
+
+        <ul>
+            <li> <a href="mailto:muhammad.bw.03@gmail.com"><i class="fab fa-google"></i></a>
+                <!-- <p>Gmail</p> --></li>
+           
+            <li> <a href="#"><i class="fab fa-telegram"></i></a>
+                <!-- <p>Telegram</p>--></li> 
 
 
-<!-- <div class="second">
+            <li> <a href="#"><i class="fab fa-instagram"></i></a>
+                <!-- <p>Instagram</p> -->
+            </li>
+            
+            <li> <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <!-- <p>WhatsApp</p> -->
+            </li>
+        </ul>
 
-	<img src="p2.jpg" width="30%" height="50%">
-	<h3>About me!</h3>
-	<p>I have Lot's of skills of Programming. I know HTML & CSS and can work as front-end web developer. Also I know how to use Unity and can create any games with almost realistick physic and enjoyable mechanick. And anather my skill is Robot programming through Arduino. </p>
-</div> -->
+</div>
+
+
 </body>

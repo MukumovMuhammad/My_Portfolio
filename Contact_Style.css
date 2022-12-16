@@ -86,6 +86,11 @@ input:hover{
     color:whitesmoke;
 }
 
+
+.form2 textarea:hover{
+    background-color:#38404A ;
+}
+
 button{
     border: 1px solid #767676;
     background-color: #1F2731;
@@ -127,3 +132,4 @@ i{
     color:whitesmoke;
 	
 }
+
