@@ -13,12 +13,12 @@
 		<script src="index.js"></script>
 		  <script type="text/javascript"
 		  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
- 		 </script>
+ 		 </script>g
   		<script type="text/javascript">
 			 (function(){
 				emailjs.init("ifL-CnHk9eGSlGRe_");
 				 })();
-  </script>
+  		</script>
 
 	</head>
 
@@ -196,23 +196,23 @@
 
         <p id="text_me">Text me anytime you want. I will try to answer as soon as i can.</p>
 
-        <form class="form">
+        
             <div class="form1">
-               <input type="text" placeholder="name">
+               <input type="text" placeholder="name" id="name">
                 <br>
-                <input type="email" placeholder="email" > 
+                <input type="email" placeholder="email" id="email" > 
             </div>
             <div class="form2">
                 <p id="pm">MESSAGE</p>
-                <textarea>
+                <textarea id="message">
                     
                 </textarea>
                 <br>
-                <button id="send">SEND</button>
+                <button id="send" onclick="sendMail()">SEND</button>
             </div>
 
            
-        </form>
+        
         <p>Also you can text me through these social medias:</p>
 
         <ul>
@@ -233,6 +233,28 @@
         </ul>
 
 </div>
+
+
+
+
+<!-- foooter Section -->
+
+<footer>
+	<p class="first_p">Muhammad</p>
+	<p class="second_p">
+		For more information and code detail of other projects, please click on the icons below
+	</p>
+
+
+	<div class="social">
+			<a href="#"> <i class="fab fa-instagram"></i></a>
+			<a href="#"> <i class="fab fa-facebook"></i></a>
+			<a href="#"> <i class="fab fa-github"></i></a>
+			<a href="#"> <i class="fab fa-github"></i></a>
+	</div>
+
+	<p class="end">Copyright By Mukumov Muhammad</p>
+</footer>
 
 
 </body>
