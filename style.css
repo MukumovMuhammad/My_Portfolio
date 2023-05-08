@@ -1,9 +1,15 @@
+/*FOR ALL */
+
 *{
 	padding: 0;
 	margin:0;
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
 }
+
+
+
+/*------------------------------------ HERO SECTION ------------------------------------ */
 
 .hero{
 	height: 100vh;
@@ -31,8 +37,8 @@ nav{
 .logo{	
 	color:white;
 	font-size: 40px;
-	letter-spacing: 2px
-	cursor:pointer;
+	letter-spacing: 2px;
+	cursor: pointer;
 }
 
 span{
@@ -51,7 +57,7 @@ nav ul li a{
 	color:white;
 	text-decoration: none;
 	font-weight: bold;
-	text-transform: capitalize;9
+	text-transform: capitalize;
 }
 nav ul li a:hover{
 
@@ -95,8 +101,9 @@ nav ul li a:active{
 	position: absolute;
 	color:white;
 	top:50%;
-	left:8%
+	left:8%;
 	transform: translateY(-50%);
+
 
 }
 
@@ -139,7 +146,64 @@ h4{
 }
 
 
-/* SKILSS SECTON */
+
+
+
+
+
+/*------------------------------------ ABOUT ME SECTION ------------------------------------ */
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+
+
+.about img{
+	height: auto;
+	width: 430px;
+}
+
+.about-text{
+	width: 550px;
+	margin-bottom: 80px;
+}
+
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.about-text h2{
+	color:white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 60px;
+}
+
+.about-text h5{
+	color:white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+}
+
+.about-text p{
+	color:#ADD8E6;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+
+
+/*------------------------------------ SKILL'S SECTION ------------------------------------ */
 
 .skills{
 	width:100%;
@@ -170,7 +234,7 @@ h4{
 
 .skills .skills_content .left p{
 	color:white;
-	 
+
 
 }
 
@@ -236,62 +300,7 @@ h4{
 
 
 
-
-
-
-/*	 ABOUT PAGE */
-
-.about{
-	width: 100%;
-	padding 100px 0px;
-	background-color: #191919;
-}
-
-
-.about img{
-	height: auto;
-	width: 430px;
-}
-
-.about-text{
-	width: 550px;
-	margin-bottom: 80px;
-}
-
-.main{
-	width: 1130px;
-	max-width: 95%;
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-}
-
-.about-text h2{
-	color:white;
-	font-size: 75px;
-	text-transform: capitalize;
-	margin-bottom: 60px;
-}
-
-.about-text h5{
-	color:white;
-	letter-spacing: 2px;
-	font-size: 22px;
-	margin-bottom: 25px;
-}
-
-.about-text p{
-	color:#ADD8E6;
-	letter-spacing: 1px;
-	line-height: 28px;
-	font-size: 18px;
-	margin-bottom: 45px;
-}
-
-
-
-/*Services*/
+/*------------------------------------ MY SERVICE SECTION ------------------------------------ */
 
 .service{
 	background-color: #101010;
@@ -366,7 +375,7 @@ h5{
 
 
 
-/* CONTACT STYLE */
+/*------------------------------------ CONTACT ME SECTION ------------------------------------ */
 
 .contact{
 	padding: 0;
@@ -408,7 +417,7 @@ p{
 /* FORM 1 */
 
 .form1{
-   
+
     margin-top: 150px;
     margin-left: 300px;
 }
@@ -439,7 +448,7 @@ input:hover{
 /* FORM 2 */
 
 .form2{
- 
+
     margin-left: 30px;
     margin-top: 100px;
     
@@ -492,19 +501,20 @@ ul li{
     margin-left: 10px;
 }
 
+/*
 i{
-    /* font-size: 38px;
+    font-size: 38px;
 	display: block;
 	text-align: center;
 	margin:20px 10px;
-    color:whitesmoke; */
+    color:whitesmoke; 
 	
 }
+*/
 
 
 
-
-/* footer */
+/*------------------------------------ FOOTER SECTION ------------------------------------ */
 
 footer{
 	position: relative;
