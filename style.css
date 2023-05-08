@@ -11,6 +11,7 @@
 
 /*------------------------------------ HERO SECTION ------------------------------------ */
 
+/* setting up hero */
 .hero{
 	height: 100vh;
 	width: 100%;
@@ -23,17 +24,21 @@
 
 }
 
+
+/* ----------- navigation ----------- */
+
 nav{
 	display: flex;
 	/* align-items: center; */
 	justify-content: space-between;
-	
+	margin-left: -4%;
 	width: 100%;
 	position: fixed;
 	padding: 1% 4% 1% 4%;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* Logo  (portfolio) */
 .logo{	
 	color:white;
 	font-size: 40px;
@@ -41,11 +46,14 @@ nav{
 	cursor: pointer;
 }
 
+/* logo's lio */
 span{
 	color:#B22222;
 }
 
-nav ul li{
+
+/* Items in nav */
+nav ul li{ 
 
 	font-size: 1.5em;
 	list-style-type: none;
@@ -53,12 +61,15 @@ nav ul li{
 	padding: 10px 25px;
 }
 
+
+/* Links decoration of NAV */
 nav ul li a{
 	color:white;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: capitalize;
 }
+
 nav ul li a:hover{
 
 	color:#FF4500;
@@ -70,13 +81,12 @@ nav ul li a:active{
 	transition:.4s ;
 }
 
-.second{
-	height: 100vh;
-	width: 100%;
-	background-color: black;
-	color:white;
-}
 
+
+
+
+
+/*------ Buttons style -----*/
 .button{
 	font-size: 1.2em;
 	color:black;
@@ -97,6 +107,7 @@ nav ul li a:active{
 }
 
 
+/* ----------- CONTENT ----------- */
 .content{
 	position: absolute;
 	color:white;
@@ -107,6 +118,7 @@ nav ul li a:active{
 
 }
 
+/* Surname */
 .content span{
 	color:#B22222;
 }
@@ -129,6 +141,9 @@ h4{
 	letter-spacing: 4px;
 
 }
+
+
+/* Button decoration in content */
 .btn{
 	position: absolute;
 	text-decoration: none;
@@ -153,24 +168,15 @@ h4{
 
 /*------------------------------------ ABOUT ME SECTION ------------------------------------ */
 
+/* setting up section */
 .about{
 	width: 100%;
 	padding: 100px 0px;
 	background-color: #191919;
 }
 
-
-.about img{
-	height: auto;
-	width: 430px;
-}
-
-.about-text{
-	width: 550px;
-	margin-bottom: 80px;
-}
-
-.main{
+/*  setting up div for two items inside it*/
+.main{ 
 	width: 1130px;
 	max-width: 95%;
 	margin: 0 auto;
@@ -179,6 +185,23 @@ h4{
 	justify-content: space-around;
 }
 
+
+/* image */
+.about img{
+	height: auto;
+	width: 430px;
+}
+
+
+
+/* text */
+.about-text{
+	width: 550px;
+	margin-bottom: 80px;
+}
+
+
+/* main title */
 .about-text h2{
 	color:white;
 	font-size: 75px;
@@ -186,6 +209,7 @@ h4{
 	margin-bottom: 60px;
 }
 
+/* smoller title */
 .about-text h5{
 	color:white;
 	letter-spacing: 2px;
@@ -193,6 +217,7 @@ h4{
 	margin-bottom: 25px;
 }
 
+/* main text */
 .about-text p{
 	color:#ADD8E6;
 	letter-spacing: 1px;
@@ -205,12 +230,14 @@ h4{
 
 /*------------------------------------ SKILL'S SECTION ------------------------------------ */
 
+/* setting up section */
 .skills{
 	width:100%;
 	padding: 100px 0px;
 	background-color: #191919;
 }
 
+/* setting up section for items that located in this content */
 .skills .skills_content{
 	display: flex;
 	align-content: center;
@@ -280,22 +307,22 @@ h4{
 }
 
 .skills .skills_content .right .html::before{
-	width: 50%;
-	
-}
-
-.skills .skills_content .right .css::before{
-	width: 90%;
-	
-}
-
-.skills .skills_content .right .cpp::before{
 	width: 70%;
 	
 }
 
+.skills .skills_content .right .css::before{
+	width: 60%;
+	
+}
+
+.skills .skills_content .right .cpp::before{
+	width: 50%;
+	
+}
+
 .skills .skills_content .right .unity::before{
-	width: 90%;
+	width: 10%;
 }
 
 
