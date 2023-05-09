@@ -28,3 +28,8 @@ function sendMail(){
     .catch(arr => console.log(err))
     
 }
+
+
+if (window.innerWidth < 800){
+    window.location.href = 'SmallScreen.html';
+}
