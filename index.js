@@ -1,3 +1,13 @@
+let html = document.documentElement;
+console.log(html.clientWidth);
+if (html.clientWidth < 800){
+    alert("small screen");
+    window.location.href = 'SmallScreen.html';
+}
+
+
+
+
 // function for sending email
 function sendMail(){
     // vocabluary for having an access to HTML elemets 
@@ -30,6 +40,4 @@ function sendMail(){
 }
 
 
-if (window.innerWidth < 800){
-    window.location.href = 'SmallScreen.html';
-}
+
