@@ -252,19 +252,22 @@ h4{
 	width: calc(50% - 30px);
 }
 
+
+/*--- Text --- (title as well)*/
 .skills .skills_content .left .text{
 	color:red;
 	font:50px;
 	font-weight: 600;
 	margin-bottom: 10px;
 }
-
+/* text himself */
 .skills .skills_content .left p{
 	color:white;
 
 
 }
 
+/* Bars setting */
 .skills .skills_content .right .bars{
 	margin-bottom: 10px;
 }
@@ -275,6 +278,8 @@ h4{
 	justify-content: space-between;
 }
 
+
+/* titles of skilss */
 .skills .skills_content .right .skill_main{
 	color:white;
 	font-weight: 900;
@@ -282,12 +287,15 @@ h4{
 
 }
 
+
+/* % numbers on the right */
 .skills .skills_content .right .protsent{
 	color:red;
 	font-weight: 900;
 	font-size: large;	
 }
 
+/* EMPTY lines*/
 .skills .skills_content .right .line{
 	height: 5px;
 	width: 100%;
@@ -296,6 +304,8 @@ h4{
 	position: relative;
 }
 
+
+/* Over lines | Blue lines that will cover empty lines  */
 .skills .skills_content .right .line::before{
 	content: "";
 	position: absolute;
@@ -306,22 +316,27 @@ h4{
 	background-color: #0064C8;
 }
 
+
+/*------------- HTML ------------- */
 .skills .skills_content .right .html::before{
 	width: 70%;
 	
 }
 
+/*------------- CSS ------------- */
 .skills .skills_content .right .css::before{
 	width: 60%;
 	
 }
 
-.skills .skills_content .right .cpp::before{
+/*------------- HTML ------------- */
+.skills .skills_content .right .JS::before{
 	width: 50%;
 	
 }
 
-.skills .skills_content .right .unity::before{
+/*------------- REACT ------------- */
+.skills .skills_content .right .react::before{
 	width: 10%;
 }
 
@@ -329,12 +344,15 @@ h4{
 
 /*------------------------------------ MY SERVICE SECTION ------------------------------------ */
 
+
+/* setting up section  */
 .service{
 	background-color: #101010;
 	width: 100%;
 	padding: 100px 0px;
 }
 
+/* TITLE  */
 .title h2{
 	color:white;
 	font-size: 75px;
@@ -343,6 +361,8 @@ h4{
 	text-align: center;
 }
 
+
+/* setting up box (container for three cards (box)) */
 .box{
 	display: flex;
 	justify-content: center;
@@ -350,6 +370,8 @@ h4{
 	min-height: 400px;
 }
 
+
+/* setting up cards/boxes */
 .card{
 	height: 365px;
 	width: 335px;
@@ -363,6 +385,7 @@ h4{
 
 }
 
+/* setting up ICONS */
 .card i{
 	font-size: 50px;
 	display: block;
@@ -371,12 +394,15 @@ h4{
 	color:#0064C8;
 }
 
+
+/* card's TITLE */
 h5{
 	color:white;
 	font-size: 23px;
 	margin-bottom: 25px;
 }
 
+/* texts */
 .pra p{
 	color:#3FD7FC;
 	font-size: 16px;
@@ -384,6 +410,8 @@ h5{
 	margin-bottom: 25px;
 }
 
+
+/* button */
 .card .button{
 	background-color:#0064C8;
 	color: white;
@@ -394,6 +422,8 @@ h5{
 	border-radius: 30px;
 	transition: .4s; 
 }
+
+/* Hover of button only in cards */
 .card .button:hover{
 	background-color: transparent;
 	border: 2px solid #0064C8;
