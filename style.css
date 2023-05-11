@@ -19,7 +19,7 @@
 
 	background-size: cover;
 	background-position: center;
-	padding-top: 45px;
+	padding-top: 10px;
 	padding-right: 0%;
 	padding-left: 0%;
 
@@ -258,27 +258,34 @@ h4{
 	width: calc(50% - 30px);
 }
 
+.skills .about_skills{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 50px;
+}
+
 
 /*--- Text --- (title as well)*/
-.skills .skills_content .left .text{
+.skills .about_skills .text{
 	color:red;
-	font:50px;
+	font-size:50px;
 	font-weight: 600;
 	margin-bottom: 10px;
 }
 /* text himself */
-.skills .skills_content .left p{
+.skills  p{
 	color:white;
+	font-size: 20px;
 
 
 }
 
 /* Bars setting */
-.skills .skills_content .right .bars{
+.skills .skills_content  .bars{
 	margin-bottom: 10px;
 }
 
-.skills .skills_content .right .info{
+.skills .skills_content  .info{
 	display: flex;
 
 	justify-content: space-between;
@@ -286,7 +293,7 @@ h4{
 
 
 /* titles of skilss */
-.skills .skills_content .right .skill_main{
+.skills .skills_content  .skill_main{
 	color:white;
 	font-weight: 900;
 	font-size: large;
@@ -295,14 +302,14 @@ h4{
 
 
 /* % numbers on the right */
-.skills .skills_content .right .protsent{
+.skills .skills_content  .protsent{
 	color:red;
 	font-weight: 900;
 	font-size: large;	
 }
 
 /* EMPTY lines*/
-.skills .skills_content .right .line{
+.skills .skills_content  .line{
 	height: 5px;
 	width: 100%;
 	background-color: #ffffff;
@@ -312,7 +319,7 @@ h4{
 
 
 /* Over lines | Blue lines that will cover empty lines  */
-.skills .skills_content .right .line::before{
+.skills .skills_content  .line::before{
 	content: "";
 	position: absolute;
 	height: 100%;
@@ -322,6 +329,7 @@ h4{
 	background-color: #0064C8;
 }
 
+/*------------------- SOFT SKILLS -------------------*/
 
 /*------------- HTML ------------- */
 .skills .skills_content .right .html::before{
@@ -346,7 +354,30 @@ h4{
 	width: 10%;
 }
 
+/*------------------- LANG SKILLS -------------------*/
 
+/*------------- Tajik ------------- */
+.skills .skills_content .left .taj::before{
+	width: 80%;
+	
+}
+
+/*------------- Russian------------- */
+.skills .skills_content .left .rus::before{
+	width: 70%;
+	
+}
+
+/*------------- English ------------- */
+.skills .skills_content .left .eng::before{
+	width: 60%;
+	
+}
+
+/*------------- Korean ------------- */
+.skills .skills_content .left .kor::before{
+	width: 10%;
+}
 
 /*------------------------------------ MY SERVICE SECTION ------------------------------------ */
 
