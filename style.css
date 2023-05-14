@@ -92,25 +92,6 @@ nav ul li a:active{
 
 
 
-/*------ Buttons style -----*/
-.button{
-	font-size: 1.2em;
-	color:black;
-	text-decoration: none;
-	padding: 13px 25px;
-	background-color: #ADD8E6;
-	border-radius: 20px;
-}
-
-.button:hover{
-	background-color:#FFEBCD; 
-	transition: .5s;
-}
-
-.button:active{
-	padding: 15px 27px;
-	transition: .1s;
-}
 
 
 /* ----------- CONTENT ----------- */
@@ -379,11 +360,11 @@ h4{
 	width: 10%;
 }
 
-/*------------------------------------ MY SERVICE SECTION ------------------------------------ */
+/*------------------------------------ My Projects ------------------------------------ */
 
 
 /* setting up section  */
-.service{
+.Projects{
 	background-color: #101010;
 	width: 100%;
 	padding: 100px 0px;
@@ -675,3 +656,81 @@ p{
 }
 
 
+@media screen and (max-width: 600px) {
+
+	/* adjust font sizes */
+	h1 {
+	  font-size: 2rem;
+	}
+  
+	h2 {
+	  font-size: 1.5rem;
+	}
+  
+	h3 {
+	  font-size: 1.2rem;
+	}
+  
+	h4 {
+	  font-size: 1rem;
+	}
+  
+	/* adjust navigation bar */
+	nav {
+	  flex-direction: column;
+	}
+  
+	.logo {
+	  font-size: 1.5rem;
+	  margin-bottom: 1rem;
+	}
+  
+	ul {
+	  flex-direction: column;
+	  align-items: center;
+	  margin: 0;
+	  padding: 0;
+	  list-style: none;
+	}
+  
+	li {
+	  margin-bottom: 1rem;
+	}
+  
+	/* adjust hero section */
+	.content {
+	  text-align: center;
+	  margin-top: 2rem;
+	}
+  
+	.btn {
+	  margin-top: 2rem;
+	}
+  
+	/* adjust about section */
+	.main {
+	  flex-direction: column-reverse;
+	  align-items: center;
+	}
+  
+	img {
+	  max-width: 100%;
+	  height: auto;
+	}
+  
+	/* adjust skills section */
+	.skills_content {
+	  flex-direction: column;
+	}
+  
+	.column {
+	  margin: 0;
+	}
+  
+	.line {
+	  height: 10px;
+	  margin-bottom: 1rem;
+	}
+  
+  }
+  
