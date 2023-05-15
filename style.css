@@ -400,16 +400,29 @@ h4{
 	position: relative;
 	overflow: hidden;
 	text-align: center;
+	
+
+}
+#tic-tac{
+	
+	background-image: url("img/tic-tac.jpg");
 
 }
 
 /* setting up ICONS */
-.card i{
-	font-size: 50px;
+.card img{
+	width: 70px;
+	height: 50px;
+	border-radius: 50px;
+	display: block;
+	margin:auto;
+	margin-bottom: 5px;
+	text-align: center;
+	/* font-size: 50px;
 	display: block;
 	text-align: center;
 	margin:20px 0px;
-	color:#0064C8;
+	color:#0064C8; */
 }
 
 
@@ -417,12 +430,16 @@ h4{
 h5{
 	color:white;
 	font-size: 23px;
+	margin-top: 30px;
 	margin-bottom: 25px;
+	
 }
+
 
 /* texts */
 .pra p{
-	color:#3FD7FC;
+
+	color:hsl(192, 100%, 77%);
 	font-size: 16px;
 	line-height: 27px;
 	margin-bottom: 25px;
@@ -431,6 +448,7 @@ h5{
 
 /* button */
 .card .button{
+
 	background-color:#0064C8;
 	color: white;
 	text-decoration: none;
@@ -624,7 +642,9 @@ p{
 }
 
 .social{
+	
 	display: flex;
+
 
 }
 
@@ -632,7 +652,7 @@ p{
 .social a{
 	display: flex;
 	width: 45px;
-	height: 45px;
+	height: 0px;
 	color:red;
 	font-size: 20px;
 	justify-content: center;
@@ -649,88 +669,8 @@ p{
 .end{
 	position: absolute;
 	color:#3FD7FC;
-	font-size: 25px;
-
-	bottom: 35px;
+	font-size: 20px;
+	margin-top: 11%;
+	/* bottom: 35px; */
 
 }
-
-
-@media screen and (max-width: 600px) {
-
-	/* adjust font sizes */
-	h1 {
-	  font-size: 2rem;
-	}
-  
-	h2 {
-	  font-size: 1.5rem;
-	}
-  
-	h3 {
-	  font-size: 1.2rem;
-	}
-  
-	h4 {
-	  font-size: 1rem;
-	}
-  
-	/* adjust navigation bar */
-	nav {
-	  flex-direction: column;
-	}
-  
-	.logo {
-	  font-size: 1.5rem;
-	  margin-bottom: 1rem;
-	}
-  
-	ul {
-	  flex-direction: column;
-	  align-items: center;
-	  margin: 0;
-	  padding: 0;
-	  list-style: none;
-	}
-  
-	li {
-	  margin-bottom: 1rem;
-	}
-  
-	/* adjust hero section */
-	.content {
-	  text-align: center;
-	  margin-top: 2rem;
-	}
-  
-	.btn {
-	  margin-top: 2rem;
-	}
-  
-	/* adjust about section */
-	.main {
-	  flex-direction: column-reverse;
-	  align-items: center;
-	}
-  
-	img {
-	  max-width: 100%;
-	  height: auto;
-	}
-  
-	/* adjust skills section */
-	.skills_content {
-	  flex-direction: column;
-	}
-  
-	.column {
-	  margin: 0;
-	}
-  
-	.line {
-	  height: 10px;
-	  margin-bottom: 1rem;
-	}
-  
-  }
-  
