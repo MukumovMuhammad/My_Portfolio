@@ -15,7 +15,7 @@
 .hero{
 	height: 100vh;
 	width: 100%;
-	background-image:url(wp1.jpg);
+	background-image:url(img/wp1.jpg);
 
 	background-size: cover;
 	background-position: center;
@@ -44,7 +44,7 @@ nav{
 
 /* Logo  (portfolio) */
 .logo{	
-	color:white;
+	color:#ADD8E6;
 	font-size: 40px;
 	letter-spacing: 2px;
 	cursor: pointer;
@@ -112,6 +112,7 @@ nav ul li a:active{
 
 h1{
 	color:#ADD8E6;
+
 	margin:20px 0px 20px;
 	font-size: 50px;
 }
@@ -248,7 +249,7 @@ h4{
 
 /*--- Text --- (title as well)*/
 .skills .about_skills .text{
-	color:red;
+	color:#B22222;
 	font-size:50px;
 	font-weight: 600;
 	margin-bottom: 10px;
@@ -284,7 +285,7 @@ h4{
 
 /* % numbers on the right */
 .skills .skills_content  .protsent{
-	color:red;
+	color:#B22222;
 	font-weight: 900;
 	font-size: large;	
 }
@@ -391,8 +392,8 @@ h4{
 
 /* setting up cards/boxes */
 .card{
-	height: 365px;
-	width: 335px;
+	height: 300px;
+	width: 330px;
 	padding: 20px 35px;
 	background:#191919;
 	border-radius: 20px;
@@ -408,22 +409,14 @@ h4{
 	background-image: url("img/tic-tac.jpg");
 
 }
-
-/* setting up ICONS */
-.card img{
-	width: 70px;
-	height: 50px;
-	border-radius: 50px;
-	display: block;
-	margin:auto;
-	margin-bottom: 5px;
-	text-align: center;
-	/* font-size: 50px;
-	display: block;
-	text-align: center;
-	margin:20px 0px;
-	color:#0064C8; */
+#tetris{
+	background-image: url("img/tetris.jpg");
 }
+#SF{
+	background-image: url("https://avatars.mds.yandex.net/i?id=92480c1835ffd506e153f7a6cf4c4c3d4a411877-8497113-images-thumbs&n=13");
+}
+
+
 
 
 /* card's TITLE */
@@ -448,6 +441,11 @@ h5{
 
 /* button */
 .card .button{
+	position:absolute;
+	
+	bottom: 20px;
+	left: 120px;
+	
 
 	background-color:#0064C8;
 	color: white;
@@ -468,142 +466,8 @@ h5{
 
 
 
-/*------------------------------------ CONTACT ME SECTION ------------------------------------ */
+/*------------------------------------ CONTACT ME SECTION (was deleted) ------------------------------------ */
 
-/* setting up section */
-.contact{
-	padding: 20px;
-	margin-top: -20px;
-    /* background-color: rgb(0, 166, 255); */
-    /* background-image: url(wp1.jpg); */
-    background-color: #0F1922;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-}
-
-/* Title & Text*/
-
-#h1{
-    color:whitesmoke;
-}
-
-p{
-    color:whitesmoke;
-}
-
-/*----- INPUTS -----*/
-input::placeholder{
-    color:whitesmoke;
-
-}
-
-input{
-    background-color: #1F2731 ;
-    color:whitesmoke;
-}
-
-
-
-/*------------ FORM 1 ------------ */
-
-.form1{
-
-    margin-top: 150px;
-    margin-left: 300px;
-}
-
-/*---- INPUTS ----*/
-.form1 input{
-    /* padding: 5px 50px; */
-    inline-size: 500px;
-    block-size: 30px;
-    margin-bottom: 100px;
-    border-radius: 4px;
-    border-color: none;
-
-    border: solid 1px #767676;
-}
-
-#input_text::placeholder{
-	font-size: 20px;
-}
-
-input:hover{
-    background-color:#38404A;
-    transition: .4s;
-}
-
-
-
-
-/* FORM 2 */
-
-.form2{
-
-    margin-left: 30px;
-    margin-top: 100px;
-    
-}
-
-
-.form2 textarea{
-    inline-size: 600px;
-    max-inline-size: 600px;
-    min-inline-size: 600px;
-    block-size: 300px;
-
-    border-radius: 7px;
-
-    background-color: #1F2731 ;
-
-    color:whitesmoke;
-}
-
-
-.form2 textarea:hover{
-    background-color:#38404A ;
-}
-
-/* bUTTON send */
-#send{
-    border: 1px solid #767676;
-    background-color: #1F2731;
-    inline-size: 100px;
-    block-size: 30px;
-    margin-left: 500px;
-    margin-top: 30px;
-    color:whitesmoke;
-    border-radius: 7px;
-}
-
-#send:hover{
-    color:rgb(142, 249, 249);
-    background-color: #38404A;
-    transition: .9s;
-}
-
-/* LIST OF SOCIAL MEDIES */
-ul{
-    margin-left: 80px;
-    display: flex;
-    list-style: none;
-    
-}
-ul li{
-    margin-left: 10px;
-}
-
-/*
-i{
-    font-size: 38px;
-	display: block;
-	text-align: center;
-	margin:20px 10px;
-    color:whitesmoke; 
-	
-}
-*/
 
 
 
@@ -653,7 +517,7 @@ p{
 	display: flex;
 	width: 45px;
 	height: 0px;
-	color:red;
+	color:#B22222;
 	font-size: 20px;
 	justify-content: center;
 	align-items: center;
