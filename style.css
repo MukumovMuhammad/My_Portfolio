@@ -404,6 +404,13 @@ h4{
 	
 
 }
+
+.card:hover{
+	/* border: #0064C8 1px solid; */
+
+	opacity: 0.7;
+	transition: .4s;
+}
 #tic-tac{
 	
 	background-image: url("img/tic-tac.jpg");
@@ -413,7 +420,7 @@ h4{
 	background-image: url("img/tetris.jpg");
 }
 #SF{
-	background-image: url("https://avatars.mds.yandex.net/i?id=92480c1835ffd506e153f7a6cf4c4c3d4a411877-8497113-images-thumbs&n=13");
+	background-image: url("img/SF.jpg");
 }
 
 
@@ -432,7 +439,7 @@ h5{
 /* texts */
 .pra p{
 
-	color:hsl(192, 100%, 77%);
+	color:hsl(192, 100%, 50%);
 	font-size: 16px;
 	line-height: 27px;
 	margin-bottom: 25px;
@@ -479,7 +486,7 @@ footer{
 	padding: 0;
 	position: relative;
 	width: 100%;
-	height: 200px;
+	height: 250px;
 	background-color: #191919;
 	display: flex;
 	flex-direction: column;
