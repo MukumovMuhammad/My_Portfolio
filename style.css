@@ -178,6 +178,7 @@ h4{
 .about img{
 	height: auto;
 	width: 430px;
+	border-radius: 20px;
 }
 
 
@@ -217,6 +218,8 @@ h4{
 
 
 /*------------------------------------ SKILL'S SECTION ------------------------------------ */
+
+
 
 /* setting up section */
 .skills{
@@ -363,10 +366,14 @@ h4{
 
 /*------------------------------------ My Projects ------------------------------------ */
 
+:root{
+	--project_back:#101010;
+}
 
 /* setting up section  */
 .Projects{
-	background-color: #101010;
+	transition: .4s;
+	background-color: var(--project_back);
 	width: 100%;
 	padding: 100px 0px;
 }
@@ -410,18 +417,34 @@ h4{
 
 	opacity: 0.7;
 	transition: .4s;
+
 }
+
+
+
 #tic-tac{
 	
 	background-image: url("img/tic-tac.jpg");
 
 }
 #tetris{
+
 	background-image: url("img/tetris.jpg");
 }
 #SF{
 	background-image: url("img/SF.jpg");
 }
+
+#Todo{
+	background: linear-gradient(
+		90deg,
+		  rgb(8, 49, 75) 0%,
+		  rgb(0, 102, 143) 100%
+		);
+}
+
+
+
 
 
 
