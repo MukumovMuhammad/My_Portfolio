@@ -133,3 +133,8 @@ i{
 	
 }
 
+i:hover{
+    transition: .4s;
+    color:rgb(35, 182, 170);
+}
+

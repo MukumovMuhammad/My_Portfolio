@@ -1,5 +1,5 @@
 // function for sending email
-function sendMail(){
+function sendMail(e){
     // vocabluary for having an access to HTML elemets 
     var params = {
         name: document.getElementById("name").value,
