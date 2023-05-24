@@ -68,6 +68,17 @@ nav ul li{
 }
 
 
+
+@media screen and (max-width: 1000px) {
+	.logo{	
+		font-size: 35px;
+		letter-spacing: 1px;
+	}
+
+
+}
+
+
 /* Links decoration of NAV */
 nav ul li a{
 	color:white;
@@ -159,15 +170,16 @@ h4{
 /* setting up section */
 .about{
 	width: 100%;
-	padding: 100px 0px;
+	padding: 100px 10px;
 	background-color: #191919;
 }
 
 /*  setting up div for two items inside it*/
-.main{ 
-	width: 1130px;
-	max-width: 95%;
+.main{
+	width: 95%;
+	max-width: 1130px;
 	margin: 0 auto;
+
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -177,7 +189,7 @@ h4{
 /* image */
 .about img{
 	height: auto;
-	width: 430px;
+	width: 400px;
 	border-radius: 20px;
 }
 
@@ -191,11 +203,13 @@ h4{
 
 
 /* main title */
-.about-text h2{
+.about h2{
+	text-align: center;
 	color:white;
 	font-size: 75px;
 	text-transform: capitalize;
 	margin-bottom: 60px;
+	margin: 0;
 }
 
 /* smoller title */
@@ -211,10 +225,21 @@ h4{
 	color:#ADD8E6;
 	letter-spacing: 1px;
 	line-height: 28px;
-	font-size: 18px;
+	font-size: 20px;
 	margin-bottom: 45px;
 }
 
+
+@media screen and (max-width: 1000px) {
+
+	.about img{
+		width: 350px;
+		margin-right: 25px;
+
+		
+	}
+
+}
 
 
 /*------------------------------------ SKILL'S SECTION ------------------------------------ */
@@ -238,6 +263,8 @@ h4{
 
 
 }
+
+
 
 .skills .skills_content .column{
 	width: calc(50% - 30px);
@@ -286,6 +313,9 @@ h4{
 }
 
 
+
+
+
 /* % numbers on the right */
 .skills .skills_content  .protsent{
 	color:#B22222;
@@ -313,6 +343,23 @@ h4{
 
 	background-color: #0064C8;
 }
+
+@media screen and (max-width: 1000px) {
+	.skills .skills_content{
+		display: block;
+		padding: 50px 0;
+	}
+	
+
+	.left{
+		margin: auto;
+		margin-bottom: 50px;
+	}
+	.right{
+		margin: auto;
+	}
+}
+
 
 /*------------------- SOFT SKILLS -------------------*/
 
@@ -367,22 +414,20 @@ h4{
 /*------------------------------------ My Projects ------------------------------------ */
 
 :root{
-	--project_back:#101010;
+	--project_back: #101010;
 }
 
 /* setting up section  */
 .Projects{
-	transition: .4s;
 	background-color: var(--project_back);
 	width: 100%;
 	padding: 100px 0px;
 }
 
 /* TITLE  */
-.title h2{
+.Projects h2{
 	color:white;
 	font-size: 75px;
-	width: 1130px;
 	margin:30px auto;
 	text-align: center;
 }
@@ -400,7 +445,7 @@ h4{
 /* setting up cards/boxes */
 .card{
 	height: 300px;
-	width: 330px;
+	width: 30%;
 	padding: 20px 35px;
 	background:#191919;
 	border-radius: 20px;
@@ -410,6 +455,23 @@ h4{
 	text-align: center;
 	
 
+}
+
+@media screen and (max-width: 1000px) {
+	.Projects h2{
+		text-align: center;
+		font-size: 50px;
+	}
+
+	.box{
+		text-align: center;
+		display: block;
+	}
+	.card{
+		display: inline-block;
+		width: 300px;
+		height: 300px;
+	}
 }
 
 .card:hover{
@@ -564,7 +626,13 @@ p{
 	position: absolute;
 	color:#3FD7FC;
 	font-size: 20px;
-	margin-top: 11%;
+	margin-top: 15%;
 	/* bottom: 35px; */
 
+}
+
+@media screen and (max-width: 1000px) {
+	.end{
+		margin-top: 25%;
+	}
 }
