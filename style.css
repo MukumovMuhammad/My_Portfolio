@@ -623,16 +623,9 @@ p{
 
 /* copy right */
 .end{
-	position: absolute;
+	position: relative;
 	color:#3FD7FC;
 	font-size: 20px;
-	margin-top: 15%;
-	/* bottom: 35px; */
 
-}
 
-@media screen and (max-width: 1000px) {
-	.end{
-		margin-top: 25%;
-	}
 }
