@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
+    text-align: center;
     
    
 }
@@ -18,7 +19,10 @@ h1{
 
 form{
     display: flex;
+
 }
+
+
 
 
 
@@ -109,7 +113,29 @@ button:hover{
 }
 
 
+@media screen and (max-width: 1000px) {
+    form{
+        display: block;
+    }
+    
+    .form1{
+   
+        margin-top: 100px;
+        margin-left: 10%;
+    }
+    .form1 input{
+    margin-bottom: 50px;
+    }
 
+    
+    .form2{
+        margin-top: 50px;
+        
+    }
+
+   
+
+}
 
 
 
@@ -118,6 +144,9 @@ ul{
     margin-left: 80px;
     display: flex;
     list-style: none;
+    position: relative;
+    margin: 0;
+    justify-content: center;
     
 }
 ul li{
